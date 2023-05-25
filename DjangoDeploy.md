@@ -56,7 +56,7 @@ server {
 
     location = /favicon.ico { access_log off; log_not_found off; }
     location /static/ {
-        root /home/user/myproject;
+        root /home/marcelomcls/myproject;
     }
 
     location / {
@@ -64,7 +64,7 @@ server {
         proxy_set_header X-Real-IP $remote_addr;
         proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
         proxy_set_header X-Forwarded-Proto $scheme;
-        proxy_pass http://unix:/home/user/myproject/myproject.sock;
+        proxy_pass http://unix:/home/marcelomcls/myproject/myproject.sock;
     }
 }
 ```
