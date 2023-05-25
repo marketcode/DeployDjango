@@ -72,7 +72,7 @@ server {
 }
 ```
 
-* Quinto Passo: Vamos ajustar os grupos de usuarios, lembrando que meu projeto esta na conta de usuario com nome de user:
+* Quinto Passo: Vamos ajustar os grupos de usuarios, lembrando que meu projeto esta na conta de usuario com nome de usuário marcelomcls:
 
 ```bash
 #˜ sudo usermod -a -G user marcelomcls nginx
