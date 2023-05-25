@@ -1,5 +1,7 @@
 ## Django Deploy (Nginx)
 ### Author: Marcelo Caçapava Lopes Silva.
+### SO: CENTOS, ROCKYLINUX E REDHAT.
+
 <hr>
 * Primeiro passo: Vamos instalar nosso servidor de Web:
 
